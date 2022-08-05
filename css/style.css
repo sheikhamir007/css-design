@@ -1,0 +1,179 @@
+.container{
+    width:900px;
+    height:500px;
+    clear: both;
+    background-color: #ca781b;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.move{
+    width:130px;
+    height: 60px;
+    padding:10px 15px;
+    background-color: red;
+    color:white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 3s;
+    transition-timing-function: ease-in-out;
+
+}
+
+
+.move1{
+    width:130px;
+    height: 60px;
+    padding:10px 15px;
+    background-color: red;
+    color:white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 3s;
+    transition-timing-function: ease-in-out;
+    transition: translateY;
+}
+
+
+.move2{
+    width:130px;
+    height: 60px;
+    padding:10px 15px;
+    background-color: red;
+    color:white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 3s;
+    transition-timing-function: ease-out;
+}
+
+
+.move{
+    width:130px;
+    height: 60px;
+    padding:10px 15px;
+    background-color: red;
+    color:white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.container:hover .move{
+   margin-left: 300px;
+
+}
+
+
+#ease{
+    transition: margin-left ease-in-out .5s;
+}
+
+
+
+.hover-area{
+    width: 1200px;
+    background-color: aquamarine;
+
+}
+
+.background-color{
+    width: 900px;
+    height: 400px;
+    background-color: green;
+    transition: .5s;
+}
+
+.background-color:hover{
+    background-color: #c11bca;
+}
+
+.color{
+    width: 900px;
+    background-color: rgb(0, 128, 122);
+    transition: .5s;
+}
+
+.color:hover{
+    background-color: #211bca;
+    color: rgb(236, 231, 239);
+    font-size: 20px;
+}
+
+.width{
+    width: 200px;
+    height: 100px;
+    background-color: #211bca;
+    transition: .5s;
+}
+.width:hover{
+    width: 300px;
+    height: 200px;
+}
+.line-height{
+    width: 400px;
+    height: 180px;
+    background-color: rgb(0, 128, 122);
+    transition: .5s;
+}
+
+.line-height:hover{
+    line-height:180px;
+    letter-spacing: 10px;
+}
+
+.padding{
+    width: 100px;
+    padding: 50px 100px;
+    background-color: #211bca;
+    transition: .5s;
+}
+
+.padding:hover{
+    padding: 100px 200px;
+    margin: 100px 50px;
+    opacity:0;
+}
+
+.border{
+    width: 100px;
+    height: 80px;
+    background-color: #3e3b90;
+    border: 5px solid;
+    transition:.3s;
+   
+}
+
+.border:hover{
+    border-color: #c11bca;
+    border-radius: 10px;
+    border-width: 20px;
+   
+}
+
+.bg-img{
+    width: 100%;
+    height: 500px;
+    color: aliceblue;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 500px;
+    text-align: center;
+}
